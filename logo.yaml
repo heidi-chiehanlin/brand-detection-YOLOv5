@@ -1,0 +1,11 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../drive/MyDrive/Datasets/logo/images/train/
+val: ../drive/MyDrive/Datasets/logo/images/val/
+test: ../drive/MyDrive/Datasets/logo/images/test/
+
+# number of classes
+nc: 18
+
+# class names
+names: ['acura', 'audi', 'bmw', 'chevrolet', 'ford', 'honda', 'hyundai', 'infiniti', 'kia', 'lamborghini', 'lexus', 'mazda', 'mercedesbenz', 'nissan', 'porsche', 'tesla', 'toyota', 'volkswagen']
+
