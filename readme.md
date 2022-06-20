@@ -4,7 +4,7 @@
 
 ## Project Summary
 This project focus on car brand recognition. 18 Brands, each with 50 training images were provided.
-The complete solution can be found in the training notebook, with the steps listed below:
+The complete solution can be found in the [training notebook](/Logo_Recognition_Customized_YOLOv5.ipynb), with the steps listed below:
 1. Data Preperation: Using [makesense.ai](https://www.makesense.ai/) to create multiple labels on image.
 2. Data Spliting: Assigning images to train/validate/test dataset and organize them in according directories.
 3. Model Training: Fitting training images to `YOLOv5s`
@@ -31,7 +31,7 @@ As for the activation function, YOLO v5 uses Leaky ReLU and Sigmoid activation f
 <br><br>
 
 ## Model Training
-Notebook can be found here: [training customized YOLOv5](...).
+Notebook can be found here: [training customized YOLOv5](/Logo_Recognition_Customized_YOLOv5.ipynb).
 Or run it on Google Colab: [link to training notebook on Google Colab.](https://colab.research.google.com/drive/1--XIoBcOkmj8pB_MUB0pXlh6zi3W-OiC?usp=sharing)
 <br><br>
 
