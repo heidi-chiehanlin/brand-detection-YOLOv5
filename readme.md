@@ -17,8 +17,9 @@ The complete solution can be found in the training notebook, with the steps list
 YOLO is a family of object detection architectures and models pretrained on the COCO dataset, famous for its speed and accuracy.
 [Glenn Jocher](https://www.linkedin.com/in/glenn-jocher/) introduced PyTorch based version of YOLO and released YOLO v5 ([Github](https://github.com/ultralytics/yolov5)/[Documentation](https://docs.ultralytics.com/)).
 
+![architecture](/The-network-architecture-of-Yolov5.png)
+
 [image source](https://www.researchgate.net/publication/349299852_A_Forest_Fire_Detection_System_Based_on_Ensemble_Learning)
-![architecture](https://www.researchgate.net/publication/349299852/figure/fig1/AS:991096905678849@1613307324973/The-network-architecture-of-Yolov5-It-consists-of-three-parts-1-Backbone-CSPDarknet.jpg)
 
 As a **single-stage** object detector, it has three important parts:
 1. Backbone: CSPNet. Extracts features from given input images.
